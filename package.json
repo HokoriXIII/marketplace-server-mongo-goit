@@ -1,0 +1,32 @@
+{
+  "name": "marketplace-server-mongo-goit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HokoriXIII/marketplace-server-mongo-goit.git"
+  },
+  "author": "Hokori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HokoriXIII/marketplace-server-mongo-goit/issues"
+  },
+  "homepage": "https://github.com/HokoriXIII/marketplace-server-mongo-goit#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "query-string": "^6.8.3",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
